@@ -10,5 +10,10 @@
             <Required>N</Required>
             <mask>/^[a-fA-F0-9\.\,\:\@]{1,512}$/</mask>
         </dotservers>
+        <domaininsecure type="HostnameField">
+            <Required>N</Required>
+            <FieldSeparator>,</FieldSeparator>
+            <asList>Y</asList>
+        </domaininsecure>
     </items>
 </model>
